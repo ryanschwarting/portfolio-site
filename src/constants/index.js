@@ -5,24 +5,23 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  valorem,
+  atlas,
+  agency,
+  roblox,
+  duckpin,
   threejs,
+  solidity,
+  python,
+  ethers,
+  web3,
+  vercel,
 } from "../assets";
 
 export const navLinks = [
@@ -42,31 +41,27 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "React Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Blockchain Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "JavaScript / TypeScript",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Node / Express",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
+    name: "Solidity",
+    icon: solidity,
   },
   {
     name: "JavaScript",
@@ -81,8 +76,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Python",
+    icon: python,
   },
   {
     name: "Tailwind CSS",
@@ -105,66 +100,48 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "vercel",
+    icon: vercel,
+  },
+  {
+    name: "ethers",
+    icon: ethers,
+  },
+  {
+    name: "web3",
+    icon: web3,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Lead Solidity Developer",
+    company_name: "AdValorem Foundation",
+    icon: valorem,
+    iconBg: "#D3D3D3",
+    date: "Feburary 2022 - June 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led blockchain development as the project lead, overseeing the entire lifecycle of smart contract development.",
+      "Utilized the Hardhat framework to design, craft, and thoroughly test the NFT marketplace smart contract.",
+      "Aimed to facilitate the adoption of NFTs in customer loyalty programs for small businesses.",
+      "Successfully deployed the tested smart contract to the Polygon mainnet, ensuring operational readiness.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Full Stack Developer",
+    company_name: "Atlas CORP",
+    icon: atlas,
+    iconBg: "#FFFFFF",
+    date: "Jun 2022 - Nov 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As a full-stack developer at Atlas Corp, I play a pivotal role in production support, troubleshooting issues, fixing bugs, and implementing enhancements based on client feedback, ensuring optimal performance and user satisfaction.",
+      "Contributed to the delivery of applications for high-profile clients like USGA, Bulova, NFL, Decentraland, MillerLite, DAZN, Jägermeister, demonstrating technical versatility to meet diverse client needs with a broad tech stack.",
+      "Comprehensive technical skill set covers decentralized application development using Solidity, front-end engineering with React/Next.js, TypeScript, JavaScript, Tailwind CSS for design, and Framer Motion for sophisticated animations.",
+      "Proficient in hosting and managing applications using Vercel for high performance, with additional expertise in DigitalOcean cloud services, enhancing the team's capability to deliver scalable and resilient cloud-based solutions. Additionally, adept at leveraging AI and ChatGPT technologies for streamlined troubleshooting and innovation, ensuring a competitive edge in technology adaptation and productivity.",
     ],
   },
 ];
@@ -198,16 +175,38 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Agency Portfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Built for Atlas CORP, this app harnesses Next.js for SSR and SEO benefits, TypeScript for type-safe code, Tailwind CSS for adaptive UI, Framer Motion for engaging animations, Vercel for hosting, and with HubSpot integration for seamless email marketing capture, delivering a robust and interactive experience that's as performant as it is visually appealing.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "strapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: agency,
+    source_code_link: "https://atlas-corp-website.vercel.app/",
+  },
+  {
+    name: "Duckpin Bowling",
+    description:
+      "The Detroit Duckpin Bowling site, crafted for a local bowling outfit, was built using React, TypeScript, and Tailwind CSS. The integration of the react-spring library lends a fluid, animated touch to the interface, enabling a lively user engagement as they explore what the venue has to offer.",
+
+    tags: [
+      {
+        name: "gatsbyjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +214,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: duckpin,
+    source_code_link: "detroitduckpin.com",
   },
   {
-    name: "Job IT",
+    name: "Roblox x Web3",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Next.js platform where users link their Roblox accounts to Ethereum wallets, enabling devs to create token-gated experiences in Roblox. Built with TypeScript, Tailwind CSS, and Framer Motion, it features HubSpot integration for marketing engagement and hosted on Vercel.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "blockchain",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: roblox,
+    source_code_link: "https://roblox-x-web3.vercel.app/",
   },
 ];
 

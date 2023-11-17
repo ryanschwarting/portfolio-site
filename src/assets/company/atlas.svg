@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="235" fill="none" viewBox="0 0 230 235">
+  <g class="Atlas Icon">
+    <path fill="#000" d="m121 5 16 16-16 16-16-16z" class="Rectangle 1"/>
+    <path fill="#000" d="m16 97 16 16-16 16-16-16z" class="Rectangle 3"/>
+    <path fill="#000" d="m116 102 16 16-16 16-16-16z" class="Rectangle 4"/>
+    <path fill="#000" d="m45 166 16 16-16 16-16-16z" class="Rectangle 5"/>
+    <path fill="#000" d="m108 203 16 16-16 16-16-16z" class="Rectangle 6"/>
+    <path fill="#000" d="m53 35 16 16-16 16-16-16z" class="Rectangle 2"/>
+    <path fill="#000" d="m184 42 16 16-16 16-16-16z" class="Rectangle 7"/>
+    <path fill="#000" d="m213 111 16 16-16 16-16-16z" class="Rectangle 8"/>
+    <path fill="#000" d="m175 175 16 16-16 16-16-16z" class="Rectangle 9"/>
+  </g>
+</svg>
