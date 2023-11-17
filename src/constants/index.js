@@ -91,10 +91,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -215,7 +215,7 @@ const projects = [
       },
     ],
     image: duckpin,
-    source_code_link: "detroitduckpin.com",
+    source_code_link: "https://detroitduckpin.com",
   },
   {
     name: "Roblox x Web3",
