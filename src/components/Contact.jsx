@@ -58,10 +58,6 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console.error(error);
-          console.log(import.meta.env.VITE_APP_EMAILJS_SERVICE_ID);
-          console.log(import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID);
-          console.log(import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
           console.log(error);
 
           alert("Ahh, something went wrong. Please try again.");
