@@ -1,7 +1,7 @@
 import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
-import { FaLink } from "react-icons/fa";
+import FaLink from "react-icons/fa/FaLink";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
