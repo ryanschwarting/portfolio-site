@@ -125,15 +125,14 @@ const Contact = () => {
             <div className="flex items-center">
               <a
                 className="mr-5"
-                href="https://twitter.com/_0xRyan"
+                href="https://www.linkedin.com/in/ryanschwarting/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn size={24} />
               </a>
               <a
-                className=""
-                href="https://www.linkedin.com/in/ryanschwarting/"
+                href="https://twitter.com/_0xRyan"
                 target="_blank"
                 rel="noopener noreferrer"
               >
