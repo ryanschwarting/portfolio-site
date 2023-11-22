@@ -1,7 +1,8 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -112,13 +113,34 @@ const Contact = () => {
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
-
-          <button
-            type="submit"
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
+          <div className="flex justify-between">
+            <div>
+              <button
+                type="submit"
+                className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+              >
+                {loading ? "Sending..." : "Send"}
+              </button>
+            </div>
+            <div className="flex items-center">
+              <a
+                className="mr-5"
+                href="https://twitter.com/_0xRyan"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedinIn size={24} />
+              </a>
+              <a
+                className=""
+                href="https://www.linkedin.com/in/ryanschwarting/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaXTwitter size={24} />
+              </a>
+            </div>
+          </div>
         </form>
       </motion.div>
 
