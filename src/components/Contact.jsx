@@ -37,19 +37,19 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Full Stack Developer",
+          to_name: "Ryan, Full Stack Developer",
           from_email: form.email,
-          to_email: "schwartingryan@yahoo.com",
+          to_email: "schwartingryan@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
 
       .then(
-        () => {
+        (response) => {
+          console.log("Email sent successfully:", response);
           setLoading(false);
           alert("Thank you. I will get back to you as soon as possible.");
-
           setForm({
             name: "",
             email: "",
@@ -57,9 +57,8 @@ const Contact = () => {
           });
         },
         (error) => {
+          console.error("Email sending failed:", error);
           setLoading(false);
-          console.log(error);
-
           alert("Ahh, something went wrong. Please try again.");
         }
       );
@@ -75,7 +74,6 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
-
         <form
           ref={formRef}
           onSubmit={handleSubmit}
